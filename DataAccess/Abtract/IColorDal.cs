@@ -1,5 +1,4 @@
 ﻿using DataAccess.Abstract;
-using Entities.Abstract;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abtract
 {
-    public interface ICarDal:IEntityRepository<Car>
+    public interface IColorDal : IEntityRepository<Color>
     {
-
     }
 }
