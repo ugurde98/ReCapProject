@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\FinalProject-d9ef0479d1fe9abd3fec7c086b5302259774e224\FinalProject-d9ef0479d1fe9abd3fec7c086b5302259774e224\Core\Core.csproj" />
+  </ItemGroup>
+
 </Project>
